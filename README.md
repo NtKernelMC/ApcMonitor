@@ -1,20 +1,25 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Asynchronous Procedure Call Monitor</br>
+Copyrights: NtKernelMC</br>
+Task: APC Monitor for prevention DLL injections</br>
+Creation Date: 19.05.19</br>
+Architecture: x86-x64</br>
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# FEATURES
+> Support of x86-x64 architectures for all Windows family system from Vista and higher</br>
+> Filter for forbiddened APC routines</br>
+> Preventing DLL APC Injections</br>
+> APC handler stub performed by MASM</br>
+> Good executable speed</br>
+# ФУНКЦИОНАЛ
+> Поддержка архитектур х64-х86 для всех операционных систем семейства Windows начиная с Vista и выше</br>
+> Фильтрация для предотвращения нежелательных APC</br>
+> Защита против инъекций DLL посредством доставки APC</br>
+> Стаб APC обработчика выполнен на MASM</br>
+> Хорошая скорость выполнения</br>
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Build static library with architecure of your target project.
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Anyone can make this project better, do pull request with your designs!
